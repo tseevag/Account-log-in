@@ -1,0 +1,54 @@
+<%- include('partials/header'); %>
+<div class="container">
+
+    <div class="row">
+  
+      <div class="col">
+  
+      </div>
+      
+      <div class="col">
+          <form action="/sign-up" method="POST" class="login-form-1">
+            <h3>Register your account</h3>
+        
+            <div class="form-group">
+              <input
+                type="name"
+                class="form-control"
+                placeholder="Name "
+                name="name"
+              />
+            </div>
+        
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email "
+                name="email"
+              />
+            </div>
+        
+            <div class="form-group">
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Password"
+                name="password"
+              />
+            </div>
+        
+            <p class="form-control-note">Make sure it's at least 8 character including number(s) and uppercase character(s)</p>
+        
+            <button class="btnSubmit btn btn-outline-info" type="submit">Sign up</button>
+             
+        </form>
+      </div>
+        
+    </div>  
+  
+  </div>
+
+    
+  
+<%- include("partials/footer"); %>

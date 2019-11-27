@@ -1,0 +1,98 @@
+
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+/* Navbar */
+.navbar{
+  padding: 15px auto;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+}
+
+.navbar .navbar-nav a.nav-link {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14;
+}
+
+.navbar a.btn{
+  color: #fff;
+}
+
+.form-control-note{
+  margin-top: 0;
+  font-size: small;
+  color: rgba(255, 255, 255, .85);
+  text-align: left;
+}
+
+.form-group{
+  margin: 3% 0 0 ;
+}
+.login-form-1 {
+  margin: 10% 0 0;
+  padding: 10% 5% 15%;
+  background: var(--dark);
+  color: #fff;
+  border-radius: 3%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-1 h3 {
+  text-align: center;
+  margin:0 0 12%;
+}
+
+.login-container {
+  width:30rem;
+  margin: 8% auto;
+  background-color: white;
+  color: black;
+}
+
+.login-container .form-control-note{
+  color: black;
+
+}
+
+.error-msg{
+  color: red;
+}
+
+.btnSubmit {
+  margin-top: 5%;
+  text-align: center;
+  font-weight: 600;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.btnForgetPwd {
+  position: relative;
+  left: 37%;
+
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.btnForgetPwd:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer{
+  margin: 5% auto;
+  text-align: center;
+}
+
+span.heart{
+  color: red;
+}
